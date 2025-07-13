@@ -133,7 +133,7 @@ const Portfolio = () => {
       github: "#",
       live: "https://jobportal-gg-f1g2.onrender.com",
       category: "Technical Showcase",
-      status: "Open Source",
+      status: "Demo available",
       featured: true,
       metrics: ["Secure authentication", "Redux state mgmt", "Protected routes"]
     }
@@ -423,7 +423,7 @@ const Portfolio = () => {
                   </div>
                   <div className="flex items-center gap-4">
                     <div className="w-3 h-3 bg-yellow-500 rounded-full"></div>
-                    <span className="text-gray-300">Learning new AWS services</span>
+                    <span className="text-gray-300">200+ DSA questions and ongoing</span>
                   </div>
                   <div className="flex items-center gap-4">
                     <div className="w-3 h-3 bg-purple-500 rounded-full"></div>
@@ -673,13 +673,16 @@ const Portfolio = () => {
               
               <div className="flex flex-wrap justify-center gap-6">
                 <a 
-                  href="mailto:sambhavgarg24@gmail.com"
-                  className="group bg-gradient-to-r from-purple-500 to-pink-500 text-white px-8 py-4 rounded-2xl font-semibold text-lg hover:shadow-2xl hover:shadow-purple-500/25 transition-all duration-300 hover:scale-105 flex items-center gap-3"
-                >
-                  <Mail size={20} />
-                  <span>Send Message</span>
-                  <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
-                </a>
+  href="https://t.me/SambhavGarg" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  className="group bg-gradient-to-r from-purple-500 to-pink-500 text-white px-8 py-4 rounded-2xl font-semibold text-lg hover:shadow-2xl hover:shadow-purple-500/25 transition-all duration-300 hover:scale-105 flex items-center gap-3"
+>
+  <Mail size={20} />
+  <span>Message on Telegram</span>
+  <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
+</a>
+
                 <a 
                   href="https://github.com/Sambhav-gg"
                   className="group bg-white/10 backdrop-blur-sm text-white px-8 py-4 rounded-2xl font-semibold text-lg border border-white/20 hover:bg-white/20 transition-all duration-300 hover:scale-105 flex items-center gap-3"
