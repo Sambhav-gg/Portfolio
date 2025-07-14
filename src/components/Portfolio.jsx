@@ -102,7 +102,7 @@ const Portfolio = () => {
       technologies: ["MERN Stack", "Redux", "JWT", "MongoDB", "Express.js", "N8N", "Whatsapp API", "Google Maps API"],
       image: maya,
       github: "#",
-      live: "https://company-erp.com",
+      live: "https://tourtravels-3xq6.vercel.app/",
       category: "Client Project",
       status: "Production",
       featured: true,
