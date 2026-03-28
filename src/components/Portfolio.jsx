@@ -4,7 +4,7 @@ import streetbites from "../assets/streetbites.png"
 import epidora from "../assets/epidora.png"
 import maya from "../assets/maya.png"
 import ChatZ from "../assets/ChatZ.png"
-
+import { Helmet } from "react-helmet-async";
 const Portfolio = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeSection, setActiveSection] = useState('home');
@@ -244,6 +244,26 @@ const Portfolio = () => {
 
   return (
     <div className="min-h-screen bg-black text-white overflow-x-hidden">
+      <Helmet>
+  <title>Sambhav Garg | Full Stack MERN Developer Portfolio</title>
+  <meta
+    name="description"
+    content="Sambhav Garg is a Full Stack MERN Developer building scalable web apps, AI integrations, real-time chat apps, and cloud solutions."
+  />
+  <meta
+    name="keywords"
+    content="Sambhav Garg, MERN Developer, React Developer, Full Stack Developer, Portfolio, AI Developer"
+  />
+  <meta name="author" content="Sambhav Garg" />
+
+  {/* Open Graph */}
+  <meta property="og:title" content="Sambhav Garg Portfolio" />
+  <meta
+    property="og:description"
+    content="Full Stack MERN Developer with AI, AWS, and scalable product experience."
+  />
+  <meta property="og:type" content="website" />
+</Helmet>
       {/* Enhanced Background */}
       <div className="fixed inset-0 overflow-hidden pointer-events-none">
         {/* Animated gradient orbs */}
